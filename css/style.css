@@ -115,3 +115,7 @@ h4 {
 .call-btn i {
     color: red;
 }
+
+a:hover, .menu-btn:hover {
+    color: rgba(140, 248, 248, 0.555);
+}
