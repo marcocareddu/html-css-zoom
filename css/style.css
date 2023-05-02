@@ -36,9 +36,18 @@ header {
 }
 
 /* MAIN */
+main {
+    background-color: var(--bgc-main-color);
+}
 .card-box {
     height: calc(100vh - var(--head-foot-h) * 2);
     overflow-y: auto;
+}
+
+.row {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 /* FOOTER */
