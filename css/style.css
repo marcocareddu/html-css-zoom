@@ -4,3 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* CUSTOM PROPERTIES */
+
+:root {
+    --head-foot-h: 80px;
+    --bgc-main-color: #000;
+    --bgc-secondary-color: #222;
+}
+
+/* UTILITY */
+.container {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* HEADER */
+header {
+    text-align: right;
+    height: var(--head-foot-h);
+    background-color: black;
+    color: #fff;
+}
+
+/* MAIN */
+.card-box {
+    height: calc(100vh - var(--head-foot-h) * 2);
+    overflow-y: auto;
+}
+
+/* FOOTER */
+footer {
+    height: var(--head-foot-h);
+    background-color: var(--bgc-secondary-color);
+}
+
+.foot-menu {
+    justify-content: space-between;
+}
