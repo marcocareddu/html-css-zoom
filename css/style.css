@@ -50,6 +50,23 @@ main {
     gap: 5px;
 }
 
+img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    display: block;
+}
+
+.card-info {
+    position: relative;
+    left: 0;
+    bottom: 20px;
+    color: #fff;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
 /* FOOTER */
 footer {
     height: var(--head-foot-h);
