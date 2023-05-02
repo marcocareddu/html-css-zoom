@@ -28,6 +28,11 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+body {
+    font-family: sans-serif;
+}
+
 /* HEADER */
 header {
     text-align: right;
@@ -82,10 +87,31 @@ img {
 
 /* FOOTER */
 footer {
+    color: #fff;
     height: var(--head-foot-h);
     background-color: var(--bgc-secondary-color);
+    text-align: center;
+}
+
+h4 {
+    font-size: 13px;;
 }
 
 .foot-menu {
+    line-height: 30px;
+    padding: 10px;
+    align-items: center;
     justify-content: space-between;
+}
+
+.menu-btn  * {
+    margin-left: 5px;
+}
+
+.call {
+    height: 100%;
+}
+
+.call-btn i {
+    color: red;
 }
