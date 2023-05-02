@@ -11,6 +11,7 @@
     --head-foot-h: 80px;
     --bgc-main-color: #000;
     --bgc-secondary-color: #222;
+    --third-color: #4a4a4a;
 }
 
 /* UTILITY */
@@ -33,6 +34,18 @@ header {
     height: var(--head-foot-h);
     background-color: black;
     color: #fff;
+}
+
+.head-menu {
+    padding: 15px;
+}
+
+.head-menu > span {
+    font-size: 15px;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 /* MAIN */
